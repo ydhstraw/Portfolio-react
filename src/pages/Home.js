@@ -14,13 +14,36 @@ function Home() {
         <Navbar />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></link>
         <div class="container mt-5">
-            <div class="row">
+            <div class="row mx-3">
                 <div class="col-lg-4 col-md-12 text-center">
-                    <img src="../../../img/profile.JPG" class="profile align-center mt-5"/>
+                    <img src="../../../img/profile.JPG" class="profile rounded-circle align-center mt-5" data-aos="fade-up"/>
                 </div>
-                <div class="col-lg-8 col-md-12">
-                    <p data-aos="fade-up" class="desc my-5 mx-3">Hi, My name is Yudhistira Aremaputra Wardhana! I'm an IT college Student based in South Tangerang, Indonesia. Who is looking for opportunities and work experience on Frontend Website development.</p>
+                <div class="col col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <p data-aos="fade-left" class="desc my-5">Hi, My name is Yudhistira Aremaputra Wardhana! I'm an IT college Student based in South Tangerang, Indonesia. Who is looking for opportunities and work experience on Frontend Website development.</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 social-icons" data-aos="fade-left">
+                            <a class="instagram" href="https://www.instagram.com/ydhstraw/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="facebook" href="https://www.facebook.com/ydhstraw" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a class="twitter" href="https://www.twitter.com/ydhstraw/" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="github" href="https://www.github.com/ydhstraw/" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a class="linkedin" href="https://www.linkedin.com/in/ydhstraw/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                
+                
             </div>
         </div>
         <div class="container" id="projects">
@@ -34,7 +57,7 @@ function Home() {
                             <p class="card-text">Foodle is a Food recipe search website that uses Edamam API. you can search based on certain criteria, such as sugar content, protein, and so on.</p>
                             <p class="card-text">Created with ReactJS framework</p>
                             <a href="https://foodle.vercel.app" target="_blank" class="btn btn-primary m-2" role="button" aria-pressed="true">Visit</a>
-                            <a href="https://github.com/ydhstraw/Foodle-app" target="_blank" class="btn btn-dark" role="button" aria-pressed="true">Source code</a>
+                            <a href="https://github.com/ydhstraw/Foodle-app" target="_blank" class="btn btn-light" role="button" aria-pressed="true">Source code</a>
                         </div>
                     </div>
                 </div>
