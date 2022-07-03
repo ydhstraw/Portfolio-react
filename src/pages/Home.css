@@ -1,0 +1,49 @@
+/* Introduction Text font */
+.desc {
+    font-size: 20pt;
+}
+
+.profile {
+    height: 20vw;
+    border-radius: 50%;
+}
+
+/* Cards CSS */
+.card img {
+    /*transform: scale(0.97) translateY(-35px);*/
+    transition: 0.5s;
+}
+
+.card:hover .thumbnail {
+    transform: scale(0) ;
+}
+
+.card-details {
+    color: white;
+    text-align: center;
+    /* font-weight: bold; */
+    position: absolute;
+    opacity: 0;
+    margin: 40px 40px 10px;
+    transition: opacity 0.5s linear;
+}
+
+.card:hover .card-details {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+/* Cards Colors */
+.bg-seiyou {
+    background-color: #F7BF50;
+    color: #F7BF50;;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        height: 35vw;
+        border-radius: 50%;
+    }
+}
