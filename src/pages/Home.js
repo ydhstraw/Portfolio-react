@@ -2,14 +2,14 @@ import './Home.css';
 import { useEffect } from 'react';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
-import AOS from 'aos';
-import "aos/dist/aos.css";
+// import AOS from 'aos';
+// import "aos/dist/aos.css";
 
 function Home() {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-    }, []);
+    // useEffect(() => {
+    //     AOS.init();
+    //     AOS.refresh();
+    // }, []);
     return (<>
         <Navbar />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></link>
